@@ -1,0 +1,33 @@
+.color-example
+{
+    color: darkred;
+    background-color: #ccedcc;
+    border: 15px solid lightsalmon;
+}
+
+.header-example
+{
+    font-size: 20px;
+    font-family: "Lucida Sans";
+    color:palevioletred;    
+}
+
+.list-example
+{
+    font-style: italic;
+    color: darkgreen;
+}
+
+.text-example
+{
+    font-family: "Gill Sans";
+    font-size: larger;
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+
+.div-example
+{
+    background-color: antiquewhite;
+    border: 10px solid black;
+}
