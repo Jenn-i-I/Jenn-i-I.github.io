@@ -23,6 +23,11 @@ img {
     width: fit-content;
 }
 
+figcaption {
+    font-style: italic;
+    text-align: center;
+}
+
 progress {
     margin-top: 60px;
 }
