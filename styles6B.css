@@ -40,6 +40,7 @@ a:hover{
     font-style: italic;
     color: darkgreen;
     background-color: palevioletred;
+    text-align: center;
 }
 
 .footer{
