@@ -38,6 +38,7 @@
         grid-template-columns: auto auto auto;
         column-gap: 10px;
         padding-top: 20px;
+        padding-bottom: 20px;
     }
     .navbar{
         padding-top: 10px;
@@ -64,65 +65,65 @@
 </head>
 <body>
 
-<nav class="navbar navbar-default" id="Mina">
-    <div class="container">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#Mina">Minä</a>
+    <nav class="navbar navbar-default" id="Mina">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#Mina">Minä</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#Kuka">Kuka</a></li>
+                    <li><a href="#Mika">Mikä</a></li>
+                    <li><a href="#Kenen">Kenen kanssa</a></li>
+                </ul>
+            </div>
         </div>
-        <div class="collapse navbar-collapse" id="myNavbar">
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="#Kuka">Kuka</a></li>
-                <li><a href="#Mika">Mikä</a></li>
-                <li><a href="#Kenen">Kenen kanssa</a></li>
-            </ul>
+            
+    </nav>
+
+    <div class="container-fluid bg-1" id="Kuka">
+    <h3>Kuka minä olen?</h3>
+    <img src="Martta4.jpg" class="img-responsive img-circle" style="display: inline; width: 500px; height: auto;" alt="Martta-koira">
+    <h3>Minä olen Martta.</h3>
+    <a href="#" class="btn btn-default btn-lg">
+        <span class="glyphicon glyphicon-search"></span> Search
+    </a>
+    </div>
+
+    <div class="container-fluid bg-2 text-center" id="Mika">
+        <h3>Mikä minä olen?</h3>
+        <p>Olen nallemainen koira, joka rakastaa kaikkia. Minusta ihan parasta on leikkiä metsässä ja pitää pieni tauko kallion päällä sekä talvi ja lumikylvyt. Kastuminen on kurjaa. En myöskään ymmärrä haukkuvia koiria: miksi pitää puhua rumia?</p>
+    </div>
+
+    <div class="container-fluid bg-3 text-center" id="Kenen">
+        <h3>Kuka on paras kaverini?</h3>
+        <div class="row">
+            <div class="col-sm-4">
+                <p>Paras kaverini on Miina.</p>
+                <img src="Miina.jpg" class="img-responsive" style="width:100%" alt="Miina-koira">            
+            </div>
+        
+            <div class="col-sm-4">
+                <p>Hän on nahka, joka rakastaa juoksemista.</p>
+                <img src="M_Miina_kesalla.png" class="img-responsive" style="width:100%;" alt="Kaksi koiraa nurmikentällä">
+            </div>
+
+            <div class="col-sm-4">
+                <p>Minä leikin juoksuleikkejä Miinan kanssa.</p>
+                <img src="M_M_talvella.jpg" class="img-responsive" style="width:100%;" alt="Kaksi koiraa juoksee lumessa">
+            </div>
         </div>
     </div>
-        
-</nav>
 
-<div class="container-fluid bg-1" id="Kuka">
-  <h3>Kuka minä olen?</h3>
-  <img src="Martta4.jpg" class="img-responsive img-circle" style="display: inline; width: 500px; height: auto;" alt="Martta-koira">
-  <h3>Minä olen Martta.</h3>
-  <a href="#" class="btn btn-default btn-lg">
-    <span class="glyphicon glyphicon-search"></span> Search
-  </a>
-</div>
-
-<div class="container-fluid bg-2 text-center" id="Mika">
-    <h3>Mikä minä olen?</h3>
-    <p>Olen nallemainen koira, joka rakastaa kaikkia. Minusta ihan parasta on leikkiä metsässä ja pitää pieni tauko kallion päällä sekä talvi ja lumikylvyt. Kastuminen on kurjaa. En myöskään ymmärrä haukkuvia koiria: miksi pitää puhua rumia?</p>
-</div>
-
-<div class="container-fluid bg-3 text-center" id="Kenen">
-    <h3>Kuka on paras kaverini?</h3>
-    <div class="row">
-        <div class="col-sm-4">
-            <p>Paras kaverini on Miina.</p>
-            <img src="Miina.jpg" class="img-responsive" style="width:100%" alt="Miina-koira">            
-        </div>
-    
-        <div class="col-sm-4">
-            <p>Hän on nahka, joka rakastaa juoksemista.</p>
-            <img src="Martta ja Miina kesällä.png" class="img-responsive" style="width:100%;" alt="Kaksi koiraa nurmikentällä">
-        </div>
-
-        <div class="col-sm-4">
-            <p>Minä leikin juoksuleikkejä Miinan kanssa.</p>
-             <img src="Miina ja Martta talvella.jpg" class="img-responsive" style="width:100%;" alt="Kaksi koiraa juoksee lumessa">
-        </div>
-    
-</div>
-
-<footer class="container-fluid bg-4 text-center">
-    <p>Martan Bootstrap Theme Made By Jenni</p>
-    <p>Tehty w3schoolsin opeilla: <a href="https://www.w3schools.com">www.w3schools.com</a></p>
-</footer>
+    <footer class="container-fluid bg-4 text-center">
+        <p>Martan Bootstrap Theme Made By Jenni</p>
+        <p>Tehty w3schoolsin opeilla: <a href="https://www.w3schools.com">www.w3schools.com</a></p>
+    </footer>
 
 
 </body>
