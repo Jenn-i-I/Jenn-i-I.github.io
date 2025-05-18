@@ -60,7 +60,7 @@ img {
 
 .navbar-nav li.active a {
     color: #fff;
-    background-color: #292929c;
+    background-color: #292929;
 }
 
 .navbar-default .navbar-toggle {
@@ -68,8 +68,8 @@ img {
 }
 
 .open .dropdown-toggle {
-    color: #fff; !important;
-    background-color: #555; !important;
+    color: #fff !important;
+    background-color: #555 !important;
 }
 
 .dropdown-menu li a {
