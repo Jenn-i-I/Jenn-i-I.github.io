@@ -2,8 +2,6 @@
     
     padding-top: 120px;
     padding-bottom: 50px;
-    padding-left: auto;
-    padding-right: auto;
     color: #2d2d30;
     background-color: #d4e6f8;
     font-family: Rockwell;
@@ -63,7 +61,7 @@ img {
 }
 
 .navbar-nav li.active a {
-    color: #fff; !important;
+    color: #fff;
     background-color: #292929c !important;
 }
 
